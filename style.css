@@ -1,0 +1,28 @@
+body {
+    background-color: #373567;                          
+    font-family: "Varela", sans-serif;  
+    color: white;       }
+
+
+.centered-text-container {
+    position: absolute; 
+    color: white; 
+    top: 50%; 
+    left: 35%; 
+    transform: translate(-50%, -50%);
+    margin: 50px;
+    text-align: left;
+    margin-left: 0;
+    font-size: 2em;
+}
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100vh; }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
